@@ -1,0 +1,134 @@
+TOP* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fbf3dd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fbf3dd;
+  color: #fff;
+  width: 100%;
+  max-width: 400px;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  
+}
+
+h2 span {
+  display: block;
+}
+
+.profile-icon img {
+  width: 140px;
+  height:140px;
+  margin-bottom: 25px;
+  background-color: #fbf3dd;
+  border-radius: 0%;
+  padding: 10px;
+  top: 300px;
+  margin: 70px;
+  
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 12px 15px;
+  border: none;
+  border-radius: 25px;
+  background-color: #ff0000;
+  color: #fff;
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: black;
+}
+
+.terminos {
+  font-size: 12px;
+  color: #ff1a1a;
+  text-align: left;
+}
+
+.terminos a {
+  color: black;
+  text-decoration: underline;
+}
+
+.btn-claro {
+  background-color: #c71616;
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn-claro:hover {
+  background-color:#ffaf10;
+}
+
+.btn-oscuro {
+  background-color: #c71616;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 12px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .container {
+    padding: 30px 15px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+}
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.whatsapp-icon {
+    width: 40px;
+    height: 40px;
+}
+
+
